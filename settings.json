@@ -44,6 +44,6 @@
   "terminal.integrated.fontFamily": "Hack NF",
   "terminal.integrated.fontWeight": "bold",
   "terminal.integrated.rightClickBehavior": "paste",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Night Owl"
 }
