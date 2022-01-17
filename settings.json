@@ -1,49 +1,42 @@
 {
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.bracketPairColorization.enabled": true,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 5,
-  "editor.fontFamily": "'Hack NF', 'Pragmata Medium', 'Operator Mono'",
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "editor.fontLigatures": true,
-  "editor.fontSize": 17,
+  "editor.fontFamily": "'Pragmata Medium','Hack NF','monospace'",
+  "terminal.integrated.fontFamily": "'Pragmata Medium','Iosevka Regular','Hack NF'",
+  "terminal.integrated.fontWeight": "bold",
   "editor.fontWeight": "bold",
   "editor.formatOnSave": true,
-  "editor.glyphMargin": true,
-  "editor.letterSpacing": 0.5,
-  "editor.lineHeight": 24.65,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.letterSpacing": 1.05,
+  "editor.lineHeight": 20,
   "editor.minimap.maxColumn": 100,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.side": "left",
   "editor.minimap.size": "fill",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.renderWhitespace": "all",
   "editor.scrollbar.horizontal": "hidden",
   "editor.smoothScrolling": true,
-  "editor.snippetSuggestions": "top",
   "editor.suggestSelection": "first",
-  "emulator.emulatorPathWindows": "C:\\Users\\yashraj\\AppData\\Local\\Android\\Sdk\\emulator",
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "git.autofetch": true,
-  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "files.defaultLanguage": "html",
   "prettier.singleQuote": true,
   "problems.showCurrentInStatus": true,
   "telemetry.telemetryLevel": "off",
-  "terminal.integrated.fontFamily": "Hack NF",
-  "terminal.integrated.fontWeight": "bold",
   "terminal.integrated.rightClickBehavior": "paste",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Night Owl"
+  "workbench.iconTheme": "chalice-icon-theme",
+  "editor.cursorStyle": "block",
+  "customizeUI.font.monospace": "Pragmata Medium",
+  "customizeUI.font.regular": "Pragmata Medium",
+  "workbench.colorTheme": "paddy-eucalyptus-upright",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-NoLogo"]
+    }
+  },
+  "emulator.emulatorPathWindows": "C:\\Users\\yashraj\\AppData\\Local\\Android\\Sdk\\emulator"
 }
