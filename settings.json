@@ -38,5 +38,7 @@
       "args": ["-NoLogo"]
     }
   },
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.gpuAcceleration": "on",
   "emulator.emulatorPathWindows": "C:\\Users\\yashraj\\AppData\\Local\\Android\\Sdk\\emulator"
 }
