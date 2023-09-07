@@ -1,0 +1,139 @@
+{
+  "[css]": {
+    "editor": {
+      "defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "[html]": {
+    "editor": {
+      "defaultFormatter": "vscode.html-language-features"
+    }
+  },
+  "[javascript]": {
+    "editor": {
+      "defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "[json]": {
+    "editor": {
+      "defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "[jsonc]": {
+    "editor": {
+      "defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "editor": {
+    "bracketPairColorization": {
+      "enabled": true,
+      "independentColorPoolPerBracketType": true
+    },
+    "codeActionsOnSave": {
+      "source": {
+        "organizeImports": true
+      }
+    },
+    "cursorBlinking": "smooth",
+    "cursorSmoothCaretAnimation": "on",
+    "cursorStyle": "block",
+    "cursorWidth": 2,
+    "editor": {
+      "lineHeight": 20
+    },
+    "find": {
+      "addExtraSpaceOnTop": false
+    },
+    "fontFamily": "'monospace', monospace",
+    "fontLigatures": true,
+    "formatOnSave": true,
+    "guides": {
+      "bracketPairs": true,
+      "indentation": true
+    },
+    "inlayHints": {
+      "enabled": "off"
+    },
+    "inlineSuggest": {
+      "enabled": true
+    },
+    "largeFileOptimizations": false,
+    "letterSpacing": 1.05,
+    "lineNumbers": "on",
+    "linkedEditing": true,
+    "minimap": {
+      "enabled": false,
+      "renderCharacters": false
+    },
+    "overviewRulerBorder": false,
+    "quickSuggestions": {
+      "strings": true
+    },
+    "renderLineHighlight": "all",
+    "renderWhitespace": "none",
+    "scrollbar": {
+      "horizontal": "hidden"
+    },
+    "smoothScrolling": true,
+    "suggest": {
+      "showStatusBar": true
+    },
+    "suggestSelection": "first",
+    "tabSize": 2
+  },
+  "explorer": {
+    "confirmDelete": true,
+    "confirmDragAndDrop": false
+  },
+  "files": {
+    "eol": "\n",
+    "insertFinalNewline": true,
+    "trimTrailingWhitespace": true
+  },
+  "git": {
+    "autofetch": true,
+    "confirmSync": false,
+    "enableSmartCommit": true
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "security": {
+    "workspace": {
+      "trust": {
+        "enabled": false
+      }
+    }
+  },
+  "telemetry": {
+    "telemetryLevel": "off"
+  },
+  "terminal": {
+    "integrated": {
+      "cursorBlinking": true,
+      "cursorStyle": "block",
+      "cursorWidth": 2,
+      "fontFamily": "'monospace', monospace",
+      "smoothScrolling": true
+    }
+  },
+  "window": {
+    "menuBarVisibility": "toggle",
+    "nativeTabs": true
+  },
+  "workbench": {
+    "colorTheme": "Gruvbox Dark Hard",
+    "editor": {
+      "tabCloseButton": "left"
+    },
+    "fontAliasing": "antialiased",
+    "iconTheme": "file-icons",
+    "list": {
+      "smoothScrolling": true
+    },
+    "panel": {
+      "defaultLocation": "right"
+    },
+    "smoothScrolling": true
+  }
+}
